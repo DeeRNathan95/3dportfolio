@@ -1,6 +1,7 @@
 import React from 'react'
 import {words} from "../../constants/index.js";
 import Button from "../Button.jsx";
+import HeroExperience from "../HeroModels/HeroExperience.jsx";
 
 
 const Hero = () => {
@@ -43,12 +44,14 @@ const Hero = () => {
                             id={'button'}
                             text={'See my Work'}
                         />
-
                     </div>
-
                 </header>
                 {/*RIGHT: 3D MODEL */}
-
+                <figure>
+                    <div className='hero-3d-layout'>
+                    <HeroExperience />
+                    </div>
+                </figure>
 
             </div>
         </section>
