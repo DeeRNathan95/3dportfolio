@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar.jsx";
 import FeatureCards from "./components/sections/FeatureCards.jsx";
 import ExperienceSection from "./components/sections/ExperienceSection.jsx";
 
+
 const App = () => {
     return (
        <>
