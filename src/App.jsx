@@ -4,6 +4,7 @@ import ShowcaseSection from "./components/sections/ShowcaseSection.jsx";
 import NavBar from "./components/NavBar.jsx";
 import FeatureCards from "./components/sections/FeatureCards.jsx";
 import ExperienceSection from "./components/sections/ExperienceSection.jsx";
+import TechStack from "./components/sections/TechStack.jsx";
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
            <ShowcaseSection />
            <FeatureCards />
            <ExperienceSection />
+           <TechStack />
        </>
     )
 }

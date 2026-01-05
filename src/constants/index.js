@@ -29,10 +29,10 @@ const words = [
 ];
 
 const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
-    { value: 90, suffix: "%", label: "Client Retention Rate" },
+    { value: 7, suffix: "+", label: "Years In Tech & Support" },
+    { value: 3, suffix: "+", label: "Fluent In Spoken Languages (English, French & Tamil)" },
+    { value: 10, suffix: "+", label: "Completed Projects" },
+    { value: 90, suffix: "%", label: "Positive Client Feedback" },
 ];
 
 const logoIconsList = [
@@ -147,41 +147,47 @@ const techStackIcons = [
 
 const expCards = [
     {
-        review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-        imgPath: "/images/exp1.png",
-        logoPath: "/images/logo1.png",
-        title: "Frontend Developer",
-        date: "January 2023 - Present",
+        review: "Working with Dee on our First-Step Learn website was an incredible experience. He built a WordPress platform that made our educational resources easy to access and visually engaging for learners. The site’s clear structure and responsive design helped us attract more students.",
+        imgPath: "/images/FIRST_STEP.png ",
+        logoPath: "/images/FIRST_STEP.png ",
+        title: "Freelance Web Developer",
+        date: "January 2019 - Present",
         responsibilities: [
-            "Developed and maintained user-facing features for the Hostinger website.",
-            "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-            "Optimized web applications for maximum speed and scalability.",
+            "Built and customised WordPress websites for a variety of clients, including\n" +
+            "barbershops, private tutors, and service providers, ensuring that each website\n" +
+            "met the specific needs and branding of the business.",
+            "Helped clients establish and improve their online presence, leading to\n" +
+            "increased customer engagement and business growth. For example, the\n" +
+            "website developed for a local barber resulted in a 30% increase in bookings\n" +
+            "within the first three months.",
+            "Set up and customised e-commerce functionalities using WooCommerce for\n"+
+            "clients, enabling them to sell products and services online securely and\n"+
+            "efficiently."
         ],
     },
     {
-        review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-        imgPath: "/images/exp2.png",
-        logoPath: "/images/logo2.png",
-        title: "Full Stack Developer",
+        review: "Co Founder and Director -" +
+        " I worked with Dee whilst at Virtual Recall. He performs his role as a support engineer very well throughout his career with us - always very calm and keen to learn, taking on challenges as they are presented to him in a professional manner. These skills have enabled him to progress into new roles over time. Customers regularly give praise to his good work and we were always confident that he would represent the company very well. His attitude to work and reliability are both excellent and he is a great asset to the team.",
+        imgPath: "/images/iRecall_165x30.png",
+        logoPath: "/images/iRecall_logo.png",
+        title: "Software Support Engineer ",
         date: "June 2020 - December 2023",
         responsibilities: [
-            "Led the development of Docker's web applications, focusing on scalability.",
-            "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-            "Contributed to open-source projects that were used with the Docker ecosystem.",
+            "Led and Managed Canadian operations and supported iRecall launch.",
+            "Maintained network servers, VPNs, and Windows Server environments.",
+            "Implemented Salesforce ticketing system, customising workflows, automation,\n" +
+            "and dashboards",
+            "Assisted IT projects: server migrations, software upgrades, system integrations\n" +
+            "following ITIL change management.",
+            "Served as primary client contact: training, support, troubleshooting, and\n" +
+            "escalation.",
+                "Delivered 1st & 2nd line support, resolving issues and running SQL queries for\n" +
+            "debugging.",
+
+
         ],
     },
-    {
-        review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-        imgPath: "/images/exp3.png",
-        logoPath: "/images/logo3.png",
-        title: "React Native Developer",
-        date: "March 2019 - May 2020",
-        responsibilities: [
-            "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-            "Improved app performance and user experience through code optimization and testing.",
-            "Coordinated with the product team to implement features based on feedback.",
-        ],
-    },
+
 ];
 
 const expLogos = [
